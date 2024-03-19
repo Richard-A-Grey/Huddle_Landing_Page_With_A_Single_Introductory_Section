@@ -4,7 +4,28 @@ body {
     font-family: 'Open Sans', sans-serif, for the headings;
     font-family: 'Poppins', sans-serif, for the body;
     max-width: 1440px;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-size: 100%;
 }
+
+
+.mockups img{
+    width: 10%;
+}
+
+.socials-container img{
+    width: 3%;
+    filter: invert(100%);
+    transition: filter 0.0s ease;
+}
+.socials-container img:hover{
+    filter: invert(50%) sepia(1) saturate(5000%) hue-rotate(280deg);
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+
 
 - Violet: hsl(257, 40%, 49%)
 - Soft Magenta: hsl(300, 69%, 71%)
